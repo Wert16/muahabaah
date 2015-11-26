@@ -89,6 +89,7 @@ function sheepCheck(obj) {
   for (sheep in gameObjects.sheep) {
     if (gameObjects.sheep[sheep].status === "penned") {
       sheepTotal--;
+			// if (sheepTotal === 0) alert('WINNER')
     } else {
       xTotal += gameObjects.sheep[sheep].x;
       yTotal += gameObjects.sheep[sheep].y;
