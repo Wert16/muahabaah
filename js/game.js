@@ -146,6 +146,10 @@ function init() {
     gameObjects.sheep[i].x = getRandom(2, 17);
     gameObjects.sheep[i].y = getRandom(2, 17);
     gameObjects.sheep[i].age = 0;
+		gameObjects.dog.x = getRandom(2, 17)
+		gameObjects.dog.y = getRandom(2, 17)
+		gameObjects.pen.y = getRandom(2, 17)
+		gameObjects.pen.x = getRandom(2, 17)
   }
   render();
 }
