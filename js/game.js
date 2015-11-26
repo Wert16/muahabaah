@@ -143,13 +143,13 @@ function getRandom(min, max) {
 function init() {
   for (var i = 0; i < 6; i++) {
     gameObjects.sheep[i] = {};
-    gameObjects.sheep[i].x = getRandom(2, 17);
-    gameObjects.sheep[i].y = getRandom(2, 17);
+    gameObjects.sheep[i].x = getRandom(2, ratio-2);
+    gameObjects.sheep[i].y = getRandom(2, ratio-2);
     gameObjects.sheep[i].age = 0;
-		gameObjects.dog.x = getRandom(2, 17)
-		gameObjects.dog.y = getRandom(2, 17)
-		gameObjects.pen.y = getRandom(2, 17)
-		gameObjects.pen.x = getRandom(2, 17)
+		gameObjects.dog.x = getRandom(2, ratio-2)
+		gameObjects.dog.y = getRandom(2, ratio-2)
+		gameObjects.pen.y = getRandom(2, ratio-2)
+		gameObjects.pen.x = getRandom(2, ratio-2)
   }
   render();
 }
